@@ -7,8 +7,8 @@ they overlap. As an example, (1,5) and (2,6) overlaps but not (1,5) and (6,8).
 
 ### The Answer
 
-source directory: `./q1`
-test cases file: test_case_overlapping.py
+>source directory: `./q1`
+>test cases file: test_case_overlapping.py
 
 ### Example:
 overlapping((1,5),(2,6))
@@ -16,6 +16,6 @@ overlapping((1,5),(2,6))
 output: overlapping
 
 It will return:
-text message "overlapping" if the two lines overlaps
-text message "no overlapping" if the two lines not overlaps
+>text message "overlapping" if the two lines overlaps
+>text message "no overlapping" if the two lines not overlaps
  
