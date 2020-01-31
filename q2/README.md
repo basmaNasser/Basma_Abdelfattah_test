@@ -14,7 +14,7 @@ source directory: `./compare_strings`
 
 usage: 
 ```
-from compare_strings.compare_strings import compare_strings
+from compare_strings.compare_strings import strings,check_input
 ```
 ###Example:
 ```
