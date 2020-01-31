@@ -4,7 +4,7 @@ setup(
     name='strings_sol1',
     version='0.0.1',
     packages=['q2'],
-    url='https://github.com/basmaNasser/ormuco_test/tree/master/q2/compare_strings',
+    url='https://github.com/basmaNasser/Basma_Abdelfattah_test/tree/master/q2/compare_strings',
     author='Basma Nasser',
     author_email='Basma.Nasser@gmail.com',
     description='Compare 2 different version strings',
