@@ -16,7 +16,7 @@ usage:
 ```
 from compare_strings.compare_strings import strings,check_input
 ```
-###Example:
+### Example:
 ```
 result = compare_strings('1.1','1.2')
 
