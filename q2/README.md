@@ -1,4 +1,4 @@
-## Ormuco test
+## Q2
 
 ### Description
 
@@ -15,11 +15,12 @@ source directory: `./compare_strings`
 usage: 
 ```
 from compare_strings.compare_strings import compare_strings
-
-Ex:
+```
+###Example:
+```
 result = compare_strings('1.1','1.2')
 
 o/p: string1 (1.1) less than string2 (1.2)
-
-# It will return:
-# text message if the first number is greater than, less than or equal the second number 
+```
+> It will return:</br>
+> text message if the first number is greater than, less than or equal the second number 
