@@ -10,7 +10,7 @@ they overlap. As an example, (1,5) and (2,6) overlaps but not (1,5) and (6,8).
 source directory: `./q1`
 test cases file: test_case_overlapping.py
 
-#Example:
+### Example:
 overlapping((1,5),(2,6))
 
 output: overlapping
