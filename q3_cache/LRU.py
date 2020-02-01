@@ -8,6 +8,7 @@ class LRU:
         self.cache = collections.OrderedDict()  #to generate key and value for cache items
         self.start_time=time.time()
         self.clear_time=clear_time
+        
     #retrieve previous set data    
     def __getitem__(self, k):
             value = self.cache.pop(k)
@@ -17,6 +18,7 @@ class LRU:
     # set the cache value and key    
     def __setitem__(self, k, value):
             try:
+               #pop the old key 
                self.cache.pop(k)
             except KeyError:
                 if len(self.cache) >= self.size:
@@ -25,6 +27,7 @@ class LRU:
                     self.cache.popitem(last=False)                 
                        
             current_time = time.time()
+            
             if (round(current_time-self.start_time)) == self.clear_time:
                 self.timer()
                 self.cache[k] = value
@@ -39,25 +42,3 @@ class LRU:
     def timer(self):
          Timer(self.clear_time,self.clearCache,()).start()
          
-
-s=LRU(5,110)
-s['a']=1
-s['c']=2
-s['d']=3
-s['r']=4
-s['d']=1
-s['a']=9
-s['j']=1
-s['d']=3
-s['r']=4
-s['d']=1
-s['a']=9
-s['d']=3
-s['r']=4
-
-
-print (s.cache)
-
-
-
-
